@@ -1,30 +1,29 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Index page title{% endblock %}
+{% block page_title %}Life in Our State{% endblock %}
 
-{% block page_description %}The index search description for this page goes here.{% endblock %}
+{% block page_description %}Exploring conservation efforts and resources in Texas, one code line at a time.{% endblock %}
 
 {% block content %}
 <div class="container">
-  <h1>2024 Final Project</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in facilisis velit, aliquam congue dui. Mauris id mi quam. Nam enim leo, bibendum vel efficitur id, elementum malesuada est. Pellentesque interdum tempus eros nec iaculis. Quisque ac est dictum, vehicula nulla quis, condimentum dui.</p>
-  <h2>Library books loop</h2>
-  <p>This loops through data that came from a Google Docs example.</p>
+  <h1>Life in Our State</h1>
+  <p>Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse. Which of the thousands of threatened and endangered species in Texas are found in Travis County?</p>
+  <h2>Endangered in Texas, Found in Travis County</h2>
+  <p>Learn more about the birds, mammals, and reptiles identified by the <a href="https://tpwd.texas.gov/gis/rtest/" target="_blank" rel="noopener noreferrer">Texas Parks & Wildlife</a> as threatened and endangered species in counties across the state. I manually parsed the data to isolate species which are found in Travis County, automating the code integrated from Google Sheets.</p>
   <div class="row">
-    {% for book in library.books %}
-      <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+    {% for species in species.species %}
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card text-center">
+          <img src="{{ species.photo_link }}" alt="{{ species.cname }}" class="card-img-top img-fluid">
+          <div class="card-body">
+            <h5 class="card-title">{{ species.cname }}</h5>
+            <p class="card-text"><strong>Description:</strong> {{ species.description }}</p>
+            <p class="card-text"><strong>Caption:</strong> {{ species.caption }}</p>
+            <a href="species/{{ species.slug }}.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}

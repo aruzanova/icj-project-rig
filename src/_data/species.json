@@ -1,0 +1,418 @@
+{
+  "species": [
+    {
+      "cname": "Common nighthawk",
+      "photo_link": "img/6.jpg",
+      "caption": "Photo by Joel Sartore/National Geographic Photo Arc",
+      "sname": "Chordeiles minor",
+      "taxon": "Birds",
+      "description": "Common nighthawks nest in diverse habitats, from natural areas like dunes, prairies, and forests to urban flat gravel rooftops, though the shift to rubberized roofs has reduced suitable nesting sites.",
+      "counties": 254,
+      "slug": "common-nighthawk"
+    },
+    {
+      "cname": "Hoary bat",
+      "photo_link": "img/2.jpg",
+      "caption": "Photo by Michael Durham/Minden Pictures/Newscom",
+      "sname": "Lasiurus cinereus",
+      "taxon": "Mammals",
+      "description": "Hoary bats are migratory, high-flying bats found statewide, with females migrating to Mexico in winter while males may stay in Texas year-round. They roost in forest foliage but are also found in unforested areas and deserts, often flying over water and open spaces.",
+      "counties": 254,
+      "slug": "hoary-bat"
+    },
+    {
+      "cname": "Texas horned lizard",
+      "photo_link": "img/3.jpg",
+      "caption": "Photo accredited to San Antonio Zoo",
+      "sname": "Phrynosoma cornutum",
+      "taxon": "Reptiles",
+      "description": "This species inhabits open areas with sparse vegetation, such as grasslands, prairies, and scrub, using soil burrows or rodent burrows for shelter, typically below 6,000 feet and mainly below the pinyon-juniper zone in the Big Bend region.",
+      "counties": 246,
+      "slug": "texas-horned-lizard"
+    },
+    {
+      "cname": "Western box turtle",
+      "photo_link": "img/7.jpg",
+      "caption": "Photo by Jonathan Zander",
+      "sname": "Terrapene ornata",
+      "taxon": "Reptiles",
+      "description": "Western box turtles primarily inhabit grasslands, pastures, and woodlands, occasionally entering shallow water, and shelter by burrowing into soil or using existing burrows.",
+      "counties": 245,
+      "slug": "western-box-turtle"
+    },
+    {
+      "cname": "Tricolored bat",
+      "photo_link": "img/4.jpg",
+      "caption": "Photo by Dr. J. Scott Altenbach​",
+      "sname": "Perimyotis subflavus",
+      "taxon": "Mammals",
+      "description": "This species relies on forests, woodlands, riparian areas, and caves, with caves being particularly crucial.",
+      "counties": 230,
+      "slug": "tricolored-bat"
+    },
+    {
+      "cname": "Wilson's warbler",
+      "photo_link": "img/9.jpg",
+      "caption": "Photo by Mick Thompson",
+      "sname": "Cardellina pusilla",
+      "taxon": "Birds",
+      "description": "Wilson’s Warblers rely on streamside forests and scrub for feeding during migration and use diverse habitats, from lowland thickets to high-elevation cloud forests, during the nonbreeding season.",
+      "counties": 254,
+      "slug": "wilsons-warbler"
+    },
+    {
+      "cname": "Loggerhead shrike",
+      "photo_link": "img/8.jpg",
+      "caption": "Photo accredited to Smithsonian's National Zoo and Conservation Biology Institute",
+      "sname": "Lanius ludovicianus",
+      "taxon": "Birds",
+      "description": "Loggerhead Shrikes prefer open habitats with short vegetation and scattered shrubs or low trees, including fields, pastures, orchards, and desert scrublands, often near roadsides, fence lines, or utility poles.",
+      "counties": 254,
+      "slug": "loggerhead-shrike"
+    },
+    {
+      "cname": "White-faced ibis",
+      "photo_link": "img/1.jpg",
+      "caption": "Photo by Peter Hamner/Macaulay Library",
+      "sname": "Plegadis chihi",
+      "taxon": "Birds",
+      "description": "This species is found in specific counties during migration, favoring freshwater marshes, sloughs, rice fields, and occasionally brackish or saltwater habitats, with nesting in marshes, low trees, reeds, or floating mats. Its presence varies by season and is currently limited to near-coastal rookeries in hog-wallow prairies.",
+      "counties": 254,
+      "slug": "white-faced-ibis"
+    },
+    {
+      "cname": "Yellow-billed cuckoo",
+      "photo_link": "img/5.jpg",
+      "caption": "Photo by Steve Creek/Steve Creek Wildlife Photography",
+      "sname": "Coccyzus americanus",
+      "taxon": "Birds",
+      "description": "In Texas, the Western Distinct Population Segment of this species breeds in riparian woodlands below 6,000 feet in the Trans Pecos region, arriving in May and wintering in South America. Threats include hydrologic changes preventing cottonwood and willow regeneration and livestock impacts on sapling trees.",
+      "counties": 254,
+      "slug": "yellow-billed-cuckoo"
+    }
+  ],
+  "extended": [
+    {
+      "cname": "White-faced ibis",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Febird.org%2Fspecies%2Fwhfibi&psig=AOvVaw3Pi_iel1wR_wC3TejGi5VO&ust=1733260101889000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICUo5n_iYoDFQAAAAAdAAAAABAE",
+      "sname": "Plegadis chihi",
+      "taxon": "Birds",
+      "description": "This species is found in specific counties during migration, favoring freshwater marshes, sloughs, rice fields, and occasionally brackish or saltwater habitats, with nesting in marshes, low trees, reeds, or floating mats. Its presence varies by season and is currently limited to near-coastal rookeries in hog-wallow prairies.",
+      "counties": 254,
+      "slug": "white-faced-ibis"
+    },
+    {
+      "cname": "Willet",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allaboutbirds.org%2Fguide%2FWillet%2Fid&psig=AOvVaw31vFC7Nm-iNOPMcmDlsvT9&ust=1733260121122000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCu-qH_iYoDFQAAAAAdAAAAABAE",
+      "sname": "Tringa semipalmata",
+      "taxon": "Birds",
+      "description": "This species inhabits marshes, tidal mudflats, beaches, lake margins, mangroves, tidal channels, river mouths, coastal lagoons, shores, and occasionally open grasslands.",
+      "counties": 254,
+      "slug": "willet"
+    },
+    {
+      "cname": "Sanderling",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eastsideaudubon.org%2Fcorvid-crier%2F2019%2F8%2F26%2Fsanderling&psig=AOvVaw3Xzrq1KyMNRV6T4OS62UVm&ust=1733260139714000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNC7yrP_iYoDFQAAAAAdAAAAABAE",
+      "sname": "Calidris alba",
+      "taxon": "Birds",
+      "description": "During nonbreeding, this species primarily occupies sandy beaches, mudflats, lake or river shores, and exposed reefs, often resting on upper beaches or salt pond dikes.",
+      "counties": 254,
+      "slug": "sanderling"
+    },
+    {
+      "cname": "Franklin's gull",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allaboutbirds.org%2Fguide%2FFranklins_Gull%2Fid&psig=AOvVaw0SdSQFOdslCZjot29MemTA&ust=1733260468597000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjaydSAiooDFQAAAAAdAAAAABAE",
+      "sname": "Leucophaeus pipixcan",
+      "taxon": "Birds",
+      "description": "This species migrates through Texas in spring and fall, does not breed there, and is rarely seen in winter, typically as single individuals along the Gulf coast. During migration, it roosts at wetlands, lake shores, or islands overnight after flying during daylight hours.",
+      "counties": 254,
+      "slug": "franklins-gull"
+    },
+    {
+      "cname": "Yellow-billed cuckoo",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fabcbirds.org%2Fbird%2Fyellow-billed-cuckoo%2F&psig=AOvVaw08TqXT9DBeJuisFm9acITE&ust=1733260646898000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjDrp6BiooDFQAAAAAdAAAAABAE",
+      "sname": "Coccyzus americanus",
+      "taxon": "Birds",
+      "description": "In Texas, the Western Distinct Population Segment of this species breeds in riparian woodlands below 6,000 feet in the Trans Pecos region, arriving in May and wintering in South America. Threats include hydrologic changes preventing cottonwood and willow regeneration and livestock impacts on sapling trees.",
+      "counties": 254,
+      "slug": "yellow-billed-cuckoo"
+    },
+    {
+      "cname": "Common nighthawk",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnaturecanada.ca%2Fdiscover-nature%2Fendangered-species%2Fcommon-nighthawk%2F&psig=AOvVaw37mlzuJXR8wSPKHo0wy1of&ust=1733260677512000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCPz6uBiooDFQAAAAAdAAAAABAE",
+      "sname": "Chordeiles minor",
+      "taxon": "Birds",
+      "description": "Common Nighthawks nest in diverse habitats, from natural areas like dunes, prairies, and forests to urban flat gravel rooftops, though the shift to rubberized roofs has reduced suitable nesting sites.",
+      "counties": 254,
+      "slug": "common-nighthawk"
+    },
+    {
+      "cname": "Bank swallow",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.birdorable.com%2Fblog%2Fdiscover-the-interesting-world-of-the-bank-swallow&psig=AOvVaw04HKOqOKDZ_EqSjpnLser9&ust=1733260712123000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjl_7yBiooDFQAAAAAdAAAAABAJ",
+      "sname": "Riparia riparia",
+      "taxon": "Birds",
+      "description": "Bank Swallows inhabit low areas near water with vertical cliffs or banks for colonial nesting, often using natural bluffs or human-made sites like quarries and road cuts. They forage in open areas, avoiding tree-covered landscapes.",
+      "counties": 254,
+      "slug": "bank-swallow"
+    },
+    {
+      "cname": "Loggerhead shrike",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnaturerules1.fandom.com%2Fwiki%2FLoggerhead_Shrike&psig=AOvVaw2DGecC_Q2NHXO9FTwJ0w42&ust=1733261427093000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNisiZaEiooDFQAAAAAdAAAAABAE",
+      "sname": "Lanius ludovicianus",
+      "taxon": "Birds",
+      "description": "Loggerhead Shrikes prefer open habitats with short vegetation and scattered shrubs or low trees, including fields, pastures, orchards, and desert scrublands, often near roadsides, fence lines, or utility poles.",
+      "counties": 254,
+      "slug": "loggerhead-shrike"
+    },
+    {
+      "cname": "Wilson's warbler",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Febird.org%2Fspecies%2Fwlswar&psig=AOvVaw2RXkUHNMSEvMDcSj4uJkPK&ust=1733261457600000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCWuKKEiooDFQAAAAAdAAAAABAE",
+      "sname": "Cardellina pusilla",
+      "taxon": "Birds",
+      "description": "Wilson’s Warblers rely on streamside forests and scrub for feeding during migration and use diverse habitats, from lowland thickets to high-elevation cloud forests, during the nonbreeding season.",
+      "counties": 254,
+      "slug": "wilsons-warbler"
+    },
+    {
+      "cname": "Brewer's blackbird",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBrewer%2527s_blackbird&psig=AOvVaw1Aaqba8gfCKkjTf_EuH_Y4&ust=1733261483184000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjtwauEiooDFQAAAAAdAAAAABAE",
+      "sname": "Euphagus cyanocephalus",
+      "taxon": "Birds",
+      "description": "This species inhabits shrubby areas near water, riparian woodlands, aspen parklands, cultivated lands, marshes, and human habitation, extending to pastures and fields during migration and winter.",
+      "counties": 254,
+      "slug": "brewers-blackbird"
+    },
+    {
+      "cname": "Hoary bat",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.science.org%2Fcontent%2Farticle%2Fthese-bats-use-stealth-sonar-likely-evade-rivals&psig=AOvVaw3KM_xojZA-vLBQKBjJjJcS&ust=1733261502945000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDTg7mEiooDFQAAAAAdAAAAABAE",
+      "sname": "Lasiurus cinereus",
+      "taxon": "Mammals",
+      "description": "Hoary bats are migratory, high-flying bats found statewide, with females migrating to Mexico in winter while males may stay in Texas year-round. They roost in forest foliage but are also found in unforested areas and deserts, often flying over water and open spaces.",
+      "counties": 254,
+      "slug": "hoary-bat"
+    },
+    {
+      "cname": "Mountain lion",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCougar&psig=AOvVaw0yxqg7eUAZkArWpqkqTyN_&ust=1733261532024000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPiIvMSEiooDFQAAAAAdAAAAABAE",
+      "sname": "Puma concolor",
+      "taxon": "Mammals",
+      "description": "This species is a generalist, inhabiting diverse habitats across the state but is most commonly found in rugged mountains and riparian zones.",
+      "counties": 253,
+      "slug": "mountain-lion"
+    },
+    {
+      "cname": "Northern bobwhite",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.beautifulhayscounty.org%2Fhays-humm%2Fwheres-bob&psig=AOvVaw2uovIpm7CRKzHzxpxj7IWI&ust=1733263432658000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCbgM6LiooDFQAAAAAdAAAAABAE",
+      "sname": "Colinus virginianus",
+      "taxon": "Birds",
+      "description": "This species thrives in various vegetation types, especially early successional stages, including croplands, grasslands, pastures, fallow fields, rangelands, open pinelands, mixed forests, and habitat mosaics.",
+      "counties": 248,
+      "slug": "northern-bobwhite"
+    },
+    {
+      "cname": "Texas horned lizard",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.valleycentral.com%2Fnews%2Flocal-news%2Fyoung-texas-horned-lizards-released-to-the-wild-in-ongoing-study%2F&psig=AOvVaw1GPesw0EKXGlhPe0Tkxjdf&ust=1733263455124000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCdk9eLiooDFQAAAAAdAAAAABAJ",
+      "sname": "Phrynosoma cornutum",
+      "taxon": "Reptiles",
+      "description": "This species inhabits open areas with sparse vegetation, such as grasslands, prairies, and scrub, using soil burrows or rodent burrows for shelter, typically below 6,000 feet and mainly below the pinyon-juniper zone in the Big Bend region.",
+      "counties": 246,
+      "slug": "texas-horned-lizard"
+    },
+    {
+      "cname": "Western box turtle",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.inaturalist.org%2Fguide_taxa%2F221346&psig=AOvVaw3KOLcSxoUmr5jr2wBXrIje&ust=1733263472326000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDN-eKLiooDFQAAAAAdAAAAABAJ",
+      "sname": "Terrapene ornata",
+      "taxon": "Reptiles",
+      "description": "Western box turtles primarily inhabit grasslands, pastures, and woodlands, occasionally entering shallow water, and shelter by burrowing into soil or using existing burrows.",
+      "counties": 245,
+      "slug": "western-box-turtle"
+    },
+    {
+      "cname": "Bald eagle",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fanimals.sandiegozoo.org%2Fanimals%2Fbald-eagle&psig=AOvVaw1o7ncb-sazDcfOobDlcyMo&ust=1733263559046000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOig05mMiooDFQAAAAAdAAAAABAE",
+      "sname": "Haliaeetus leucocephalus",
+      "taxon": "Birds",
+      "description": "Ornate and western box turtles inhabit prairies, pastures, fields, sandhills, and open woodlands, occasionally entering shallow streams or pools. They seek shelter by burrowing into soil or using burrows made by other species.",
+      "counties": 238,
+      "slug": "bald-eagle"
+    },
+    {
+      "cname": "Tricolored bat",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdnr.maryland.gov%2Fwildlife%2FPages%2Fplants_wildlife%2Fbats%2FBattypes%2FTri-Colored-Bat.aspx&psig=AOvVaw3BCeQchGn8BUvykDgAkdiZ&ust=1733432745744000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMi2i6qCj4oDFQAAAAAdAAAAABAE",
+      "sname": "Perimyotis subflavus",
+      "taxon": "Mammals",
+      "description": "This species relies on forests, woodlands, riparian areas, and caves, with caves being particularly crucial.",
+      "counties": 230,
+      "slug": "tricolored-bat"
+    },
+    {
+      "cname": "Snowy plover",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWestern_snowy_plover&psig=AOvVaw3mMqB3wEVg4e8xT30V6gyx&ust=1733432760698000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCg47GCj4oDFQAAAAAdAAAAABAE",
+      "sname": "Charadrius nivosus",
+      "taxon": "Birds",
+      "description": "Algal flats, valued for their inaccessibility and year-round availability, are the highest quality habitat for this species, with larger areas supporting larger populations. Once an uncommon breeder in the Panhandle, it is now a potential migrant and winters along the coast.",
+      "counties": 228,
+      "slug": "snowy-plover"
+    },
+    {
+      "cname": "Western burrowing owl",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fconservation.stanford.edu%2Fscience-management-0%2Fspecies-risk%2Fwestern-burrowing-owl&psig=AOvVaw2ljQ8Oufl3Bb5MAMa6kBkd&ust=1733432778754000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCljbqCj4oDFQAAAAAdAAAAABAE",
+      "sname": "Athene cunicularia hypugaea",
+      "taxon": "Birds",
+      "description": "This species inhabits open grasslands like prairies, plains, and savannas, occasionally using open areas near human habitation or airports, and relies on abandoned burrows for nesting and roosting.",
+      "counties": 221,
+      "slug": "western-burrowing-owl"
+    },
+    {
+      "cname": "Eastern spotted skunk",
+      "photo_link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdwr.virginia.gov%2Fblog%2Funderstanding-the-eastern-spotted-skunk-is-a-step-toward-conserving-it%2F&psig=AOvVaw0ujcJ5kJQhqy1Rhl_TPHBW&ust=1733432794272000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCwjMeCj4oDFQAAAAAdAAAAABAE",
+      "sname": "Spilogale putorius",
+      "taxon": "Mammals",
+      "description": "This generalist species occupies open fields, prairies, croplands, and woodlands, favoring wooded, brushy areas and tallgrass prairies. Subspecies S.p. interrupta prefers rocky canyons and outcrops in wooded and tallgrass prairie regions.",
+      "counties": 218,
+      "slug": "eastern-spotted-skunk"
+    }
+  ],
+  "refuges": [
+    {
+      "station_name": "Anahuac National Wildlife Refuge",
+      "location": "Anahuac, TX",
+      "focus": "\"Anahuac National Wildlife Refuge's mission is to protect critically important coastal wetlands so they can continue to benefit people, wildlife, and the economy for generations to come.\"",
+      "number": "409-267-3337",
+      "slug": "anahuac-refuge"
+    },
+    {
+      "station_name": "Aransas National Wildlife Refuge",
+      "location": "Austwell, TX",
+      "focus": "\"Aransas National Wildlife Refuge is best known as the wintering home of the last wild flock of endangered whooping cranes. Visitors can enjoy stunning scenery, a diversity of wildlife, and a variety of recreational opportunities.\"",
+      "number": "361-286-3559",
+      "slug": "aransas-refuge"
+    },
+    {
+      "station_name": "Attwater Prairie Chicken National Wildlife Refuge",
+      "location": "Eagle Lake, TX",
+      "focus": "\"Attwater Prairie Chicken National Wildlife Refuge was established to protect the critically endangered Attwater’s Prairie-Chicken, a ground-dwelling grouse of the coastal prairie ecosystem. Located approximately 60 miles west of Houston, Texas, this refuge is home to one of the largest remnants of native coastal prairie remaining in southeast Texas.\"",
+      "number": "979-234-3021",
+      "slug": "attwater-refuge"
+    },
+    {
+      "station_name": "Balcones Canyonlands National Wildlife Refuge",
+      "location": "Marble Falls, TX",
+      "focus": "\"Balcones Canyonlands National Wildlife Refuge is home to many native Texas wildlife and plants, and was specifically established to protect the nesting grounds of the black-capped vireo and the endangered golden-cheeked warbler.\"",
+      "number": "512-339-9432",
+      "slug": "balcones-refuge"
+    },
+    {
+      "station_name": "Big Boggy National Wildlife Refuge",
+      "location": "Brazoria, TX",
+      "focus": "\"Big Boggy National Wildlife Refuge, located at the end of Chinquapin Road and just north of the Gulf Intracoastal Waterway protects saline and intermediate marsh habitat for wintering waterfowl, shorebirds, wading and waterbirds, as well as other species such as white-tailed deer, coyotes, bobwhite quail, and the American alligator.\"",
+      "number": "979-964-3639",
+      "slug": "big-boggy-refuge"
+    },
+    {
+      "station_name": "Brazoria National Wildlife Refuge",
+      "location": "Angleton, TX",
+      "focus": "\"Incoming tides of the costal refuge combine life-giving nourishment from the Gulf with fresh river waters to create one of the most biologically rich environments in Texas.\"",
+      "number": "979-922-1037",
+      "slug": "brazoria-refuge"
+    },
+    {
+      "station_name": "Buffalo Lake National Wildlife Refuge",
+      "location": "Umbarger, TX",
+      "focus": "\"Buffalo Lake was created with the building of Umbarger Dam in 1938 by the U.S. Department of Agriculture. In 1958, the 7,664 acres were transferred to the Department of Interior and in 1959, Buffalo Lake National Wildlife Refuge was established. Although the lake is dry, visitors can enjoy many wildlife dependent activities such as wildlife watching and photography, environmental interpretation and education, hiking, camping and picnicking.\"",
+      "number": "806-499-3382",
+      "slug": "buffalo-lake-refuge"
+    },
+    {
+      "station_name": "Caddo Lake National Wildlife Refuge",
+      "location": "Karnack, TX",
+      "focus": "\"The refuge purpose is the management, conservation, and protection of migratory birds and other fish and wildlife. This bottomland hardwood forest ecosystem provides essential habitat for a diversity of migratory and resident wildlife species in Texas.\"",
+      "number": "903-679-9144",
+      "slug": "caddo-lake-refuge"
+    },
+    {
+      "station_name": "Grulla National Wildlife Refuge",
+      "location": "Muleshoe, TX",
+      "focus": "\"Grulla National Wildlife Refuge was established in 1969 and consist of 3,236 acres. This salt lake is important as a roost site for lesser sandhill cranes during the winter.\"",
+      "number": "806-946-3341",
+      "slug": "grulla-refuge"
+    },
+    {
+      "station_name": "Hagerman National Wildlife Refuge",
+      "location": "Sherman, TX",
+      "focus": "\"Hagerman National Wildlife Refuge was established in 1946 to provide habitat for migratory birds, wildlife, and plants native to the area.\"",
+      "number": "903-786-2826",
+      "slug": "hagerman-refuge"
+    },
+    {
+      "station_name": "Laguna Atascosa National Wildlife Refuge",
+      "location": "Los Fresnos, TX",
+      "focus": "\"Laguna Atascosa was established in 1946 to provide habitat for wintering waterfowl and other migratory birds, principally redhead ducks. Today, there is an expanded emphasis that includes endangered species conservation and management for shorebirds. The refuge is a premiere bird-watching destination with more recorded species of birds than any other refuge in the National Wildlife Refuge System.\"",
+      "number": "956-748-3607",
+      "slug": "laguna-atascosa-refuge"
+    },
+    {
+      "station_name": "Lower Rio Grande Valley National Wildlife Refuge",
+      "location": "Alamo, TX",
+      "focus": "\"The Lower Rio Grande Valley National Wildlife Refuge was established “… for the development, advancement, management, conservation, and protection of fish and wildlife resources…” 16 U.S.C. 742f(a)(4); “…for the benefit of the United States Fish and Wildlife Service, in performing its activities and services”.\"",
+      "number": "956-784-7500",
+      "slug": "lower-rio-grande-refuge"
+    },
+    {
+      "station_name": "Mcfaddin National Wildlife Refuge",
+      "location": "Sabine Pass, TX",
+      "focus": "\"McFaddin National Wildlife Refuge is a 58,861-acre refuge that includes the largest remaining freshwater marsh on the Texas Coast, as well as thousands of acres of intermediate to brackish marsh.\"",
+      "number": "409-971-2909",
+      "slug": "mcfaddin-refuge"
+    },
+    {
+      "station_name": "Moody National Wildlife Refuge",
+      "location": "Anahuac, TX",
+      "focus": "\"Moody National Wildlife Refuge was established under a conservation easement and is closed to the public.\"",
+      "number": "409-267-3337",
+      "slug": "moody-refuge"
+    },
+    {
+      "station_name": "Muleshoe National Wildlife Refuge",
+      "location": "Muleshoe, TX",
+      "focus": "\"The 6,440-acre refuge is part of the National Wildlife Refuge System, a national network of lands and waters set aside for the benefit of wildlife, habitat and you.\"",
+      "number": "806-946-3341",
+      "slug": "muleshoe-refuge"
+    },
+    {
+      "station_name": "Neches River National Wildlife Refuge",
+      "location": "Jacksonville, TX",
+      "focus": "\"Neches River National Wildlife Refuge was established to protect wintering, nesting and migratory habitat for migratory birds of the central Flyway and to ensure protection of the bottomland hardwoods for their diverse biological value.\"",
+      "number": "956-245-9426",
+      "slug": "neches-river-refuge"
+    },
+    {
+      "station_name": "San Bernard National Wildlife Refuge",
+      "location": "Brazoria, TX",
+      "focus": "\"The refuge manages a diverse array of habitats across the landscape including salt marshes and saltwater lakes, coastal prairies, freshwater lakes and marshes, intermittent streams, and riparian and bottomland forests. The refuge supports a diversity of coastal wildlife, including more than 320 species of birds, 95 species of reptiles and amphibians, and 450 species of butterflies and dragonflies.\"",
+      "number": "979-964-3639",
+      "slug": "san-bernard-refuge"
+    },
+    {
+      "station_name": "Santa Ana National Wildlife Refuge",
+      "location": "Alamo, TX",
+      "focus": "\"Established in 1943 for the protection of migratory birds, Santa Ana National Wildlife Refuge is positioned along an east-west and north-south juncture of two major migratory routes for many species of birds. It is also at the northern-most point for many species whose range extends south into Central and South America.\"",
+      "number": "956-784-7500",
+      "slug": "santa-ana-refuge"
+    },
+    {
+      "station_name": "Texas Point National Wildlife Refuge",
+      "location": "Sabine Pass, TX",
+      "focus": "\"At Texas Point National Wildlife Refuge, you will enjoy several wildlife-related activities that the diverse habitats support.\"",
+      "number": "409-971-2909",
+      "slug": "texas-point-refuge"
+    },
+    {
+      "station_name": "Trinity River National Wildlife Refuge",
+      "location": "Liberty, TX",
+      "focus": "\"Trinity River National Wildlife Refuge was established in 1994 to protect a remnant of the bottomland hardwood forest found along the Trinity River. A visit to the refuge could result in a glimpse of a bald eagle, Swainson’s warbler, or even a swallow-tailed kite overhead. A ride on refuge waters might result in sightings of American alligators, alligator gar, and even alligator snapping turtles.\"",
+      "number": "936-336-9786",
+      "slug": "trinity-river-refuge"
+    }
+  ]
+}

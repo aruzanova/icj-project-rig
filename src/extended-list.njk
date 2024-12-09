@@ -1,0 +1,28 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}Extended List{% endblock %}
+
+{% block page_description %}A detailed list of species from the extended dataset.{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Extended List</h1>
+      <p>Explore a detailed list of endangered and threatened species from the extended dataset, featuring their habitats and behaviors.</p>
+      <ul>
+        {% for item in species.extended %}
+          <li>
+            <h2>{{ item.cname }}</h2>
+            <p><strong>Description:</strong> {{ item.description }}</p>
+            <p><strong>Scientific Name:</strong> {{ item.sname }}</p>
+            <p><strong>Taxon:</strong> {{ item.taxon }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</article>
+{% endblock %}

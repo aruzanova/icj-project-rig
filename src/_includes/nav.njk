@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ relative_path }}index.html">Navbar</a>
+    <a class="navbar-brand" href="{{ relative_path }}index.html">Conservation Resources</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,12 +8,12 @@
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Library books
+            Explore
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for book in library.books %}
-            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ book.slug}}.html">{{ book.title }}</a></li>
-            {% endfor %}
+            <li><a class="dropdown-item" href="{{ relative_path }}about-data.html">About the data</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}wildlife-refuges.html">Wildlife refuges</a></li>
+            <li><a class="dropdown-item" href="{{ relative_path }}extended-list.html">Extended list</a></li>
           </ul>
         </li>
       </ul>

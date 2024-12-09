@@ -1,0 +1,28 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}Wildlife Refuges{% endblock %}
+
+{% block page_description %}Explore a list of wildlife refuges across Texas, including their locations and missions.{% endblock %}
+
+{% block content %}
+<article class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1>Wildlife Refuges</h1>
+      <p>Explore a list of wildlife refuges across Texas, including their locations and missions.</p>
+      <ul>
+        {% for refuge in species.refuges %}
+          <li>
+            <h2>{{ refuge.station_name }}</h2>
+            <p><strong>Location:</strong> {{ refuge.location }}</p>
+            <p><strong>Focus:</strong> {{ refuge.focus }}</p>
+            <p><strong>Contact:</strong> {{ refuge.number }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</article>
+{% endblock %}

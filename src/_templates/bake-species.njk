@@ -1,0 +1,25 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ cname }}{% endblock %}
+
+{% block page_description %}Learn more about {{ cname }}, considered endangered or threatened in {{ county }} counties.{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="../{{ photo_link }}" alt={{ cname }} class="img-fluid mb-4">
+      </div>
+      <div class="col-sm-8">
+          <h1>{{ cname }}</h1>
+          <p><strong>Scientific Name:</strong> {{ sname }}</p>
+          <p><strong>Taxon:</strong> {{ taxon }}</p>
+          <p><strong>Description:</strong> {{ description }}</p>
+          <p><strong>Caption:</strong> {{ caption }}</p>
+          <p><strong>Found in:</strong> {{ counties }} counties</p>
+      </div>
+    </div>
+  </article>
+{% endblock %}
