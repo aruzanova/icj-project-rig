@@ -1,20 +1,22 @@
 {% extends '_templates/base.njk' %}
 
-{% set relative_path = "../" %}
-
 {% block page_title %}Extended List{% endblock %}
 
-{% block page_description %}A detailed list of species from the extended dataset.{% endblock %}
+{% block page_description %}A detailed list of species from the Google Sheet dataset.{% endblock %}
 
 {% block content %}
 <div class="album py-5 bg-light">
   <div class="container">
     <div class="title-section text-white text-center py-5 mb-5">
       <h1 class="display-4">Life in Our State</h1>
-      <p class="lead">Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse.</p>
     </div>
 
-    <p>Explore the species found in Travis County and learn how conservation efforts aim to protect them.</p>
+    <h2 class="text-center mb-4">Endangered in Texas, Found in Travis County</h2>
+    <p class="text-center mb-5">
+      Texas is rich in biodiversity. However, some species are under threat due to habitat displacement and ecological collapse. Explore the birds, mammals, and reptiles identified by the 
+      <a href="https://tpwd.texas.gov/gis/rtest/" target="_blank" rel="noopener noreferrer">Texas Parks & Wildlife</a> 
+      as threatened and endangered and learn about conservation efforts aimed to protect them.
+    </p>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       {% for species in species.species %}

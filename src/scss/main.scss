@@ -23,21 +23,24 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-a {
-  color: #0056b3; 
-  text-decoration: underline;
-}
-
-.album.py-5.bg-light {
-  background-color: #f8f9fa;
-  color: #343a40;
-}
-
 .title-section {
   background: url('/img/0.jpg') no-repeat center center;
   background-size: cover;
   color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
+  h1 {
+    font-size: 8rem;
+    font-weight: bold; 
+    line-height: 1.2; 
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+}
+
+a {
+  color: #0056b3; 
+  text-decoration: underline;
 }
 
 h3 {
@@ -74,6 +77,7 @@ h3 {
   border: 1px solid #dee2e6;
 }
 
+// List updates for menu pages
 ul {
   list-style-type: none; 
   padding: 0;
@@ -101,4 +105,10 @@ ul {
       border-radius: 4px;
     }
   }
+}
+
+// Accessibility audit contrast update
+.album.py-5.bg-light {
+  background-color: #f8f9fa;
+  color: #343a40;
 }
