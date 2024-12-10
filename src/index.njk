@@ -1,29 +1,35 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Life in Our State{% endblock %}
+{% set relative_path = "../" %}
 
-{% block page_description %}Exploring conservation efforts and resources in Texas, one code line at a time.{% endblock %}
+{% block page_title %}Extended List{% endblock %}
+
+{% block page_description %}A detailed list of species from the extended dataset.{% endblock %}
 
 {% block content %}
-<div class="container">
-  <h1>Life in Our State</h1>
-  <p>Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse. Which of the thousands of threatened and endangered species in Texas are found in Travis County?</p>
-  <h2>Endangered in Texas, Found in Travis County</h2>
-  <p>Learn more about the birds, mammals, and reptiles identified by the <a href="https://tpwd.texas.gov/gis/rtest/" target="_blank" rel="noopener noreferrer">Texas Parks & Wildlife</a> as threatened and endangered species in counties across the state. I manually parsed the data to isolate species which are found in Travis County, automating the code integrated from Google Sheets.</p>
-  <div class="row">
-    {% for species in species.species %}
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="{{ species.photo_link }}" alt="{{ species.cname }}" class="card-img-top img-fluid">
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="title-section text-white text-center py-5 mb-5">
+      <h1 class="display-4">Life in Our State</h1>
+      <p class="lead">Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse.</p>
+    </div>
+
+    <p>Explore the species found in Travis County and learn how conservation efforts aim to protect them.</p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {% for species in species.species %}
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-{{ species.slug }}">
+          <img src="{{ species.photo_link }}" alt="Photo of {{ species.cname }}" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">{{ species.cname }}</h5>
-            <p class="card-text"><strong>Description:</strong> {{ species.description }}</p>
-            <p class="card-text"><strong>Caption:</strong> {{ species.caption }}</p>
-            <a href="species/{{ species.slug }}.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-{{ species.slug }}" class="card-title">{{ species.cname }}</h3>
+            <p class="card-text">{{ species.description }}</p>
+            <a href="species/{{ species.slug }}.html" class="btn btn-sm btn-outline-primary">Learn More about {{ species.cname }}</a>
           </div>
         </div>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 {% endblock %}

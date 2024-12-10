@@ -21,6 +21,25 @@
 // Import partials
 @import 'nav';
 
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+a {
+  color: #0056b3; 
+  text-decoration: underline;
+}
+
+.album.py-5.bg-light {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.title-section {
+  background: url('/img/0.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
 h3 {
   font-size: 1.5rem;
 }
@@ -47,8 +66,12 @@ h3 {
 }
 
 .card-text {
-  font-size: 0.9rem;
-  color: gray;
+  color: #212529;
+}
+
+.card.shadow-sm {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
 }
 
 ul {

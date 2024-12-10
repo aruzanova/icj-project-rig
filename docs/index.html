@@ -2,17 +2,17 @@
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>Life in Our State</title>
-    <meta name="description" content="Exploring conservation efforts and resources in Texas, one code line at a time.">
+    <title>Extended List</title>
+    <meta name="description" content="A detailed list of species from the extended dataset.">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Conservation Resources</a>
+    <a class="navbar-brand" href="../index.html">Conservation Resources</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,9 +23,8 @@
             Explore
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="about-data.html">About the data</a></li>
-            <li><a class="dropdown-item" href="wildlife-refuges.html">Wildlife refuges</a></li>
-            <li><a class="dropdown-item" href="extended-list.html">Extended list</a></li>
+            <li><a class="dropdown-item" href="../wildlife-refuges.html">Wildlife Refuges</a></li>
+            <li><a class="dropdown-item" href="../extended-list.html">Extended List</a></li>
           </ul>
         </li>
       </ul>
@@ -33,122 +32,119 @@
   </div>
 </nav>
 
+
     
-<div class="container">
-  <h1>Life in Our State</h1>
-  <p>Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse. Which of the thousands of threatened and endangered species in Texas are found in Travis County?</p>
-  <h2>Endangered in Texas, Found in Travis County</h2>
-  <p>Learn more about the birds, mammals, and reptiles identified by the <a href="https://tpwd.texas.gov/gis/rtest/" target="_blank" rel="noopener noreferrer">Texas Parks & Wildlife</a> as threatened and endangered species in counties across the state. I manually parsed the data to isolate species which are found in Travis County, automating the code integrated from Google Sheets.</p>
-  <div class="row">
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/6.jpg" alt="Common nighthawk" class="card-img-top img-fluid">
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="title-section text-white text-center py-5 mb-5">
+      <h1 class="display-4">Life in Our State</h1>
+      <p class="lead">Texas is rich in biodiversity. However, many of its species are on a path to extinction due to habitat displacement and ecosystem collapse.</p>
+    </div>
+
+    <p>Explore the species found in Travis County and learn how conservation efforts aim to protect them.</p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-common-nighthawk">
+          <img src="img/6.jpg" alt="Photo of Common nighthawk" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Common nighthawk</h5>
-            <p class="card-text"><strong>Description:</strong> Common nighthawks nest in diverse habitats, from natural areas like dunes, prairies, and forests to urban flat gravel rooftops, though the shift to rubberized roofs has reduced suitable nesting sites.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Joel Sartore/National Geographic Photo Arc</p>
-            <a href="species/common-nighthawk.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-common-nighthawk" class="card-title">Common nighthawk</h3>
+            <p class="card-text">Common nighthawks nest in diverse habitats, from natural areas like dunes, prairies, and forests to urban flat gravel rooftops, though the shift to rubberized roofs has reduced suitable nesting sites.</p>
+            <a href="species/common-nighthawk.html" class="btn btn-sm btn-outline-primary">Learn More about Common nighthawk</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/2.jpg" alt="Hoary bat" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-hoary-bat">
+          <img src="img/2.jpg" alt="Photo of Hoary bat" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Hoary bat</h5>
-            <p class="card-text"><strong>Description:</strong> Hoary bats are migratory, high-flying bats found statewide, with females migrating to Mexico in winter while males may stay in Texas year-round. They roost in forest foliage but are also found in unforested areas and deserts, often flying over water and open spaces.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Michael Durham/Minden Pictures/Newscom</p>
-            <a href="species/hoary-bat.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-hoary-bat" class="card-title">Hoary bat</h3>
+            <p class="card-text">Hoary bats are migratory, high-flying bats found statewide, with females migrating to Mexico in winter while males may stay in Texas year-round. They roost in forest foliage but are also found in unforested areas and deserts, often flying over water and open spaces.</p>
+            <a href="species/hoary-bat.html" class="btn btn-sm btn-outline-primary">Learn More about Hoary bat</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/3.jpg" alt="Texas horned lizard" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-texas-horned-lizard">
+          <img src="img/3.jpg" alt="Photo of Texas horned lizard" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Texas horned lizard</h5>
-            <p class="card-text"><strong>Description:</strong> This species inhabits open areas with sparse vegetation, such as grasslands, prairies, and scrub, using soil burrows or rodent burrows for shelter, typically below 6,000 feet and mainly below the pinyon-juniper zone in the Big Bend region.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo accredited to San Antonio Zoo</p>
-            <a href="species/texas-horned-lizard.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-texas-horned-lizard" class="card-title">Texas horned lizard</h3>
+            <p class="card-text">This species inhabits open areas with sparse vegetation, such as grasslands, prairies, and scrub, using soil burrows or rodent burrows for shelter, typically below 6,000 feet and mainly below the pinyon-juniper zone in the Big Bend region.</p>
+            <a href="species/texas-horned-lizard.html" class="btn btn-sm btn-outline-primary">Learn More about Texas horned lizard</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/7.jpg" alt="Western box turtle" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-western-box-turtle">
+          <img src="img/7.jpg" alt="Photo of Western box turtle" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Western box turtle</h5>
-            <p class="card-text"><strong>Description:</strong> Western box turtles primarily inhabit grasslands, pastures, and woodlands, occasionally entering shallow water, and shelter by burrowing into soil or using existing burrows.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Jonathan Zander</p>
-            <a href="species/western-box-turtle.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-western-box-turtle" class="card-title">Western box turtle</h3>
+            <p class="card-text">Western box turtles primarily inhabit grasslands, pastures, and woodlands, occasionally entering shallow water, and shelter by burrowing into soil or using existing burrows.</p>
+            <a href="species/western-box-turtle.html" class="btn btn-sm btn-outline-primary">Learn More about Western box turtle</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/4.jpg" alt="Tricolored bat" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-tricolored-bat">
+          <img src="img/4.jpg" alt="Photo of Tricolored bat" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Tricolored bat</h5>
-            <p class="card-text"><strong>Description:</strong> This species relies on forests, woodlands, riparian areas, and caves, with caves being particularly crucial.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Dr. J. Scott Altenbach​</p>
-            <a href="species/tricolored-bat.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-tricolored-bat" class="card-title">Tricolored bat</h3>
+            <p class="card-text">This species relies on forests, woodlands, riparian areas, and caves, with caves being particularly crucial.</p>
+            <a href="species/tricolored-bat.html" class="btn btn-sm btn-outline-primary">Learn More about Tricolored bat</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/9.jpg" alt="Wilson&#39;s warbler" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-wilsons-warbler">
+          <img src="img/9.jpg" alt="Photo of Wilson&#39;s warbler" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Wilson&#39;s warbler</h5>
-            <p class="card-text"><strong>Description:</strong> Wilson’s Warblers rely on streamside forests and scrub for feeding during migration and use diverse habitats, from lowland thickets to high-elevation cloud forests, during the nonbreeding season.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Mick Thompson</p>
-            <a href="species/wilsons-warbler.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-wilsons-warbler" class="card-title">Wilson&#39;s warbler</h3>
+            <p class="card-text">Wilson’s Warblers rely on streamside forests and scrub for feeding during migration and use diverse habitats, from lowland thickets to high-elevation cloud forests, during the nonbreeding season.</p>
+            <a href="species/wilsons-warbler.html" class="btn btn-sm btn-outline-primary">Learn More about Wilson&#39;s warbler</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/8.jpg" alt="Loggerhead shrike" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-loggerhead-shrike">
+          <img src="img/8.jpg" alt="Photo of Loggerhead shrike" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Loggerhead shrike</h5>
-            <p class="card-text"><strong>Description:</strong> Loggerhead Shrikes prefer open habitats with short vegetation and scattered shrubs or low trees, including fields, pastures, orchards, and desert scrublands, often near roadsides, fence lines, or utility poles.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo accredited to Smithsonian&#39;s National Zoo and Conservation Biology Institute</p>
-            <a href="species/loggerhead-shrike.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-loggerhead-shrike" class="card-title">Loggerhead shrike</h3>
+            <p class="card-text">Loggerhead Shrikes prefer open habitats with short vegetation and scattered shrubs or low trees, including fields, pastures, orchards, and desert scrublands, often near roadsides, fence lines, or utility poles.</p>
+            <a href="species/loggerhead-shrike.html" class="btn btn-sm btn-outline-primary">Learn More about Loggerhead shrike</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/1.jpg" alt="White-faced ibis" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-white-faced-ibis">
+          <img src="img/1.jpg" alt="Photo of White-faced ibis" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">White-faced ibis</h5>
-            <p class="card-text"><strong>Description:</strong> This species is found in specific counties during migration, favoring freshwater marshes, sloughs, rice fields, and occasionally brackish or saltwater habitats, with nesting in marshes, low trees, reeds, or floating mats. Its presence varies by season and is currently limited to near-coastal rookeries in hog-wallow prairies.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Peter Hamner/Macaulay Library</p>
-            <a href="species/white-faced-ibis.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-white-faced-ibis" class="card-title">White-faced ibis</h3>
+            <p class="card-text">This species is found in specific counties during migration, favoring freshwater marshes, sloughs, rice fields, and occasionally brackish or saltwater habitats, with nesting in marshes, low trees, reeds, or floating mats. Its presence varies by season and is currently limited to near-coastal rookeries in hog-wallow prairies.</p>
+            <a href="species/white-faced-ibis.html" class="btn btn-sm btn-outline-primary">Learn More about White-faced ibis</a>
           </div>
         </div>
       </div>
-    
-      <div class="col-md-4 col-sm-6 mb-4">
-        <div class="card text-center">
-          <img src="img/5.jpg" alt="Yellow-billed cuckoo" class="card-img-top img-fluid">
+      
+      <div class="col">
+        <div class="card shadow-sm" role="article" aria-labelledby="species-title-yellow-billed-cuckoo">
+          <img src="img/5.jpg" alt="Photo of Yellow-billed cuckoo" class="bd-placeholder-img card-img-top" style="height: 225px; object-fit: cover;">
           <div class="card-body">
-            <h5 class="card-title">Yellow-billed cuckoo</h5>
-            <p class="card-text"><strong>Description:</strong> In Texas, the Western Distinct Population Segment of this species breeds in riparian woodlands below 6,000 feet in the Trans Pecos region, arriving in May and wintering in South America. Threats include hydrologic changes preventing cottonwood and willow regeneration and livestock impacts on sapling trees.</p>
-            <p class="card-text"><strong>Caption:</strong> Photo by Steve Creek/Steve Creek Wildlife Photography</p>
-            <a href="species/yellow-billed-cuckoo.html" class="btn btn-primary">Learn More</a>
+            <h3 id="species-title-yellow-billed-cuckoo" class="card-title">Yellow-billed cuckoo</h3>
+            <p class="card-text">In Texas, the Western Distinct Population Segment of this species breeds in riparian woodlands below 6,000 feet in the Trans Pecos region, arriving in May and wintering in South America. Threats include hydrologic changes preventing cottonwood and willow regeneration and livestock impacts on sapling trees.</p>
+            <a href="species/yellow-billed-cuckoo.html" class="btn btn-sm btn-outline-primary">Learn More about Yellow-billed cuckoo</a>
           </div>
         </div>
       </div>
-    
+      
+    </div>
   </div>
 </div>
 
@@ -161,8 +157,8 @@
 </footer>
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>
